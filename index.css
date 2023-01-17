@@ -1,0 +1,48 @@
+table {
+    width: 100%;
+    border: 1px solid rgb(3, 96, 10);
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-shadow: 2px 5px 20px black;
+}
+
+tr, td {
+    border: 1px solid rgb(0, 37, 94);
+    text-align: center;
+}
+
+thead tr td {
+    background-color: #24a0ed;
+    color: white;
+    margin-bottom: 15px;
+
+}
+td:hover{
+    transform: scale(1.02);
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+a{
+    text-decoration: none;
+}
+table img{
+    width: 150px;
+    height: 100%;
+    object-fit: fill;
+}
+table .formbutton{
+    width: 120px;
+}
